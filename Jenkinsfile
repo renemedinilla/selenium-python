@@ -1,6 +1,6 @@
 node {
     stage ('Fetch') {
-        git url: 'git@bitbucket.org:itzdata/core2eshop.git'
+        git url: 'https://github.com/renemedinilla/selenium-python.git'
     }
     stage('Test') {
         sh 'python test.py'
