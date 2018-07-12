@@ -1,0 +1,35 @@
+1531432632537	geckodriver	INFO	geckodriver 0.21.0
+1531432632541	geckodriver	INFO	Listening on 127.0.0.1:54947
+1531432633547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "--window-size=1920,1080" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QUVzyHOhiSGQ"
+*** You are running in headless mode.
+1531432634976	Marionette	INFO	Listening on port 45801
+1531432635053	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531432653370	geckodriver	INFO	geckodriver 0.21.0
+1531432653375	geckodriver	INFO	Listening on 127.0.0.1:42003
+1531432654380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "--window-size=1920,1080" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3993866ilXzP"
+*** You are running in headless mode.
+1531432655766	Marionette	INFO	Listening on port 42151
+1531432655786	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531432939230	geckodriver	INFO	geckodriver 0.21.0
+1531432939234	geckodriver	INFO	Listening on 127.0.0.1:46393
+1531432940240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "--window-size=1920,1080" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.houXr1A57j2U"
+*** You are running in headless mode.
+1531432941665	Marionette	INFO	Listening on port 38875
+1531432941745	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531433002752	geckodriver	INFO	geckodriver 0.21.0
+1531433002755	geckodriver	INFO	Listening on 127.0.0.1:44579
+1531433003762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "--window-size=1920,1080" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O5fUYIhu7RZF"
+*** You are running in headless mode.
+1531433005139	Marionette	INFO	Listening on port 42351
+1531433005169	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531433055692	geckodriver	INFO	geckodriver 0.21.0
+1531433055696	geckodriver	INFO	Listening on 127.0.0.1:33905
+1531433056701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "--window-size=1920,1080" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.y8nWNBSPFQ0b"
+*** You are running in headless mode.
+1531433058101	Marionette	INFO	Listening on port 41803
+1531433058122	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

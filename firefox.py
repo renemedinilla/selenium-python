@@ -1,6 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 
 FIREFOX_PATH = '/usr/bin/firefox'
@@ -14,14 +12,7 @@ firefox_options.binary_location = FIREFOX_PATH
 
 driver = webdriver.Firefox(executable_path=FIREFOXDRIVER_PATH,
                           firefox_options=firefox_options
-                         ) 
-driver.get("http://www.python.org")
-driver.get_screenshot_as_file("title.png")
-assert "Python" in driver.title
-elem = driver.find_element_by_name("q")
-elem.clear()
-elem.send_keys("pycon")
-elem.send_keys(Keys.ENTER)
-driver.get_screenshot_as_file("results.png")
-assert "No results found." not in driver.page_source
+                         )  
+driver.get("https://www.google.com")
+driver.get_screenshot_as_file("capture.png")
 driver.close()
