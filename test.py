@@ -1,3 +1,4 @@
+import HTMLTestRunner
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -42,7 +43,7 @@ class AnotherTest(unittest.TestCase):
         driver = self.driver
         driver.get("http://www.python.org")
         driver.get_screenshot_as_file("title.png")
-        assert "Pythons" in driver.title
+        assert "Python" in driver.title
         elem = self.driver.find_element_by_name("q")
         elem.clear()
         elem.send_keys("pycon")
