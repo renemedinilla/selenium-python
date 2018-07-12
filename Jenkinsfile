@@ -1,5 +1,5 @@
 node {
     stage('Test') {
-        sh 'python ./test.py'
+        sh 'python test.py'
     }
 }
